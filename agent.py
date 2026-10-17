@@ -9,7 +9,7 @@ from langgraph.graph.message import add_messages
 from langgraph.prebuilt import ToolNode
 
 # --- 1. מפתח ה-API ---
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = ""
 
 # --- 2. עקיפת בדיקת SSL עבור סינון אינטרנט ---
 custom_http_client = httpx.Client(verify=False)
