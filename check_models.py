@@ -3,7 +3,7 @@ import httpx
 from groq import Groq
 
 # מפתח ה-API שלך
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = ""
 
 # עקיפת בדיקת SSL עבור סינון
 custom_http_client = httpx.Client(verify=False)
